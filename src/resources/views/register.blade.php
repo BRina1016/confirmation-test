@@ -29,7 +29,7 @@
         <div class="register-form__heading">
             <h2>Register</h2>
         </div>
-        <form class="register-form" action="{{ url('/login') }}" method="post">
+        <form class="register-form" action="{{ url()->current() }}" method="post">
             @csrf
             <div class="register-form__group">
                 <div class="register-form__group-title">
