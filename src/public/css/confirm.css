@@ -1,0 +1,80 @@
+.form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.confirm-table {
+    border: 1px solid #E0DFDE;
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__header {
+    padding: 15px;
+    width: 30%;
+    max-width: 300px;
+    color: #fff;
+    font-weight: normal;
+    border-bottom: 1px solid #E0DFDE;
+    background-color: #BAA899;
+}
+
+.confirm-table__text,
+.confirm__input--phone,
+.confirm__input--name {
+    padding: 15px;
+    border-bottom: 1px solid #E0DFDE;
+}
+
+
+.confirm-table__text input{
+    width: auto;
+    color: #8B7969;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+    border-bottom-width: 0;
+}
+
+.form__button {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.form__button-submit {
+    font-size: 16px;
+    width: 120px;
+    height: 50px;
+    border: none;
+    background: #82756A;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form__button-correction{
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 30px;
+    text-decoration: underline;
+    color: #8B7969;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+@media screen and (max-width: 959px) {
+    .form {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+}

@@ -1,0 +1,41 @@
+.thanks__main{
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0;
+}
+.thanks__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.thanks__heading {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.thanks__heading h2{
+    color: #8B7969;
+    font-family: "Inika", sans-serif;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.thanks__button{
+    background: #82756A;
+    width: 120px;
+    padding: 10px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.thanks__button a{
+    color: #fff;
+    font-family: "Inika", serif;
+    text-decoration: none;
+    display: block;
+}

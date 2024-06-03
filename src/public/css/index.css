@@ -1,0 +1,138 @@
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.form__group-title {
+    width: 25%;
+    text-align: left;
+}
+
+.form__group-content {
+    width: 75%;
+    text-align: left;
+}
+
+.form__label--item{
+    color: #8B7969;
+    font-size: 16px;
+}
+
+.form__label--required {
+    color: #FF9494;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--name input,
+.form__input--phone input,
+.form__input--kinds select,
+.form__input--textarea textarea {
+    background: #F4F4F4;
+    color: #BEB1A6;
+    border: none;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form__input--radio {
+    display: flex;
+    width: 100%;
+    color: #8B7969;
+}
+.form__input--radio div{
+    width: 20%;
+    accent-color: #8B7969;
+}
+.form__input--text input{
+    width: 100%;
+    max-width: 600px;
+    height: 40px;
+    padding: 10px;
+}
+
+.form__input--name input {
+    width: 49%;
+    max-width: 286px;
+    height: 40px;
+    padding: 10px 0 10px 10px;
+}
+
+.form__input--phone input{
+    width: 31%;
+    max-width: 189px;
+    height: 40px;
+    padding: 10px 0 10px 10px;
+}
+
+.form__input--kinds select {
+    width: 80%;
+    max-width: 300px;
+    height: 40px;
+    padding: 10px;
+}
+
+.form__input--textarea textarea {
+    width: 100%;
+    max-width: 600px;
+    height: 180px;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    max-width: 160px;
+    height: 50px;
+    border: none;
+    background: #82756A;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 959px) {
+    .form {
+        width: 90%;
+    }
+    .form__group {
+        display: block;
+        padding-bottom: 15px;
+    }
+
+    .form__group-title {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .form__group-content {
+        width: 100%;
+    }
+    .form__input--phone input {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .form__input--name input {
+        width: 48%;
+    }
+    .form__input--phone input {
+        width: 28%;
+    }
+    .form__input--radio div {
+        width: 30%;
+    }
+}

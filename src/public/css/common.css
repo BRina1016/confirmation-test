@@ -1,0 +1,53 @@
+body{
+    font-family: "Inika", serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    background: #fff;
+    border-bottom: 1px solid #E0DFDE;
+}
+
+.header__inner {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1230px;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.header__logo {
+    color: #8B7969;
+    font-family: "Inika", sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-form__heading h2 {
+    color: #8B7969;
+    font-family: "Inika", sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media screen and (max-width: 959px) {
+    .header__logo {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {}
